@@ -1,0 +1,36 @@
+h1:hover{
+    color: white;
+    background-color: sienna;
+    font-weight: 700;
+    
+}
+input:focus {
+    color: orangered;
+    font-weight: 700;
+}
+a:visited{
+    color:blue;
+    font-weight: 700;
+
+}
+li:first-child{
+    color:gold;
+}
+li:last-child{
+    color: greenyellow;
+}
+li:nth-child(2n){
+    background-color: lightsalmon;
+}
+li:nth-child(2n+1){
+    color: lime;
+}
+.hed:after{
+    content: "gello" ;
+    background-color: coral;
+    font-size: 20px;
+
+}
+h3::before{
+    content:  "  Hello";
+}
